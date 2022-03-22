@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles/2cond-styles.css">
+    <title>Cotización - Almacén</title>
+</head>
+
+<body>
+    <header>
+        <i id="arrow" class="fa-solid fa-arrow-left fa-3x"></i>
+    </header>
+    <main>
+        <div id="first-container">
+            <h1 id="titulo">Cotiza con nosotros tu nueva adquisición</h1>
+            <br>
+            <i id="arrow-animation" class="fa-solid fa-arrow-down fa-4x"></i>
+        </div>
+        <div id="cotizacion">
+            <form id="form">
+                <div id="first-form">
+                    <label>Cantidad de computadores a Comprar: </label>
+                    <br>
+                    <input id="const" type="number" placeholder="Cuántos PC's son?">
+                    <br>
+                    <button id="calcular" type="button">Cotizar</button>
+                </div>
+                <div id="second-form">
+                    <i id="logo" class="fa-solid fa-laptop-code fa-4x"></i>
+                    <label>Valor de Compra: </label>
+                    <br>
+                    <span id="val-compra"></span>
+                    <br>
+                    <label>Valor de Descuento:</label>
+                    <br>
+                    <span id="val-dcto"></span>
+                    <br>
+                    <label>Total:</label>
+                    <br>
+                    <span id="val-total"></span>
+                    <br>
+                    <span id="msj"></span>
+                    <br>
+                    <button id="back2" type="button">Cotizar Nuevamente</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="../JS/script2.js"></script>
+
+</html>
